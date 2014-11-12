@@ -1,0 +1,58 @@
+body{
+position:fixed;
+margin:0;
+width:100%;
+background-color:#000;
+color: snow;
+}
+
+
+form{
+width:250px;
+margin:0 auto;
+}
+
+
+#main{
+
+padding-top:15px;
+text-align:center;
+font-family: 'Arial', sans-serif;
+z-index:2;
+position:relative;
+}
+
+
+#main p{
+font-size:1.2em;
+font-weight:bold;
+}
+
+a:link {color:#FFF;}      /* unvisited link */
+a:visited {color:#FFF;}  /* visited link */
+a:hover {color:#FFF;}  /* mouse over link */
+a:active {color:#FFF;}  /* selected link */
+
+input {
+    border: 5px solid #fff; 
+    padding: 15px;
+    background: #fff;
+    margin: 0 0 10px 0;
+    width: 210px;
+}
+
+
+
+#submit {
+	font-size:1.5em;
+	font-weight:bold;
+	color: #111;
+	width: 250px;
+	border: 10px solid #FF00FF;
+}
+
+#submit:hover{
+	background-color:#FF00FF;
+	color:snow;
+	cursor:pointer;
+}
