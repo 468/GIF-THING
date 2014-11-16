@@ -72,14 +72,16 @@ var run = function(){
 
 // load demo images if on demo page
 if (window.location.href.indexOf("demo.html") > -1) {
-  var imgA = "img/2.gif";
-  var imgB = "img/3.gif";
-  var imgC = "img/4.gif";
-  var imgD = "img/5.gif";
+  var imgA = "img/1.gif";
+  var imgB = "img/2.gif";
+  var imgC = "img/3.gif";
+  var imgD = "img/4.gif";
+  var imgE = "img/5.gif";
   imageList.push(imgA);
   imageList.push(imgB);
   imageList.push(imgC);
   imageList.push(imgD);
+  imageList.push(imgE);
   run();
 }
 });
